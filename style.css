@@ -1,0 +1,96 @@
+#LoginForms{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+#LoginForms form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid;
+    margin: 10px;
+}
+
+
+#LoginForms form input{
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+#monBacTab{
+    display: flex;
+    flex-direction: row;
+}
+.colonne{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+input[type=text], input[type=password]{
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+input[type=submit]{
+    width: 80%;
+    margin: 10px;
+    padding: 20px;
+    align-self: center;
+}
+
+
+#listGames{
+    display: flex;
+    flex-direction: column;
+}
+#listGames a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#formAddGame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#formAddGame input[type=submit]{
+    width: auto !important;
+}
+
+#listPlayers{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#listPlayers span{
+    margin: 5px;
+}
+
+#gameNextLetter{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #monBacTab{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
